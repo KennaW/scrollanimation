@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+/*clearing out defaults*/
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+ }
+
+
+/*global styles*/
+body {
+  font-family: "ff-tisa-sans-web-pro","source sans pro", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  padding: 24px;
+  font-size: 2.5em;
+}
+
+form{
+  text-align: center;
+}
+
+/*inline images*/
+
+ul li {
+  display: inline-block;
+  padding: 4% 4%;
+
+}
+
+ul {
+  text-align: center;
+}
+
+/*background classes*/
+.light {
+  background-color: #f5f6f8;
+}
+
+.medium {
+  background-color: #374862;
+}
+
+.dark {
+  background-color: #2f3640;
+}
+
+.image {
+  background-image: url("g2g_homepage-hero.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+
+
+/*big div size*/
+.full {
+  height: 80vh;
+}
+
+/*padding for text*/
+.padding {
+  padding: 75px 200px;
+}
+
+.reset-bottom {
+  padding-bottom: 0px;
+}
+
+.bottom-padding{
+  padding-bottom: 100px;
+}
+
+.top-padding {
+  padding-top: 100px;
+}
+
+.padding-lr{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.negative-padding {
+  position: relative;
+  top: -30px;
+}
+
+/*text styles*/
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.white{
+  color: white;
+}
+
+.gray{
+  color: #4F5B6C;
+}
+
+.big{
+  font-size: 2em;
+}
+
+/*mailchimp*/
+/*hide label*/
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media only screen and (min-width:1250px){
+    .left-container {
+    float: left;
+  }
+
+  .right-container {
+    float: right;
+  }
+}
+
+input, button, select, textarea {
+  font-family: "ff-tisa-sans-web-pro","source sans pro", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  color: #2f3640;
+  width : 400px;
+  height: 60px;
+  margin: 10px;
+  padding: 0px 15px;
+  border: none;
+
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box
+}
+
+.button {
+  background-color: #3db88a;
+  font-style:normal;
+  color: white;
+  border-radius: .2em;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.herobutton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: .2em;
+  width : 200px;
+}
+
+.herobutton:active {
+  outline: none;
+}
