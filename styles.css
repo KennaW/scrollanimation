@@ -24,7 +24,7 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
 body {
   font-family: "ff-tisa-sans-web-pro","source sans pro", sans-serif;
   font-weight: 400;
-  color: #2f3640;
+  color: #30363f;
 }
 
 p {
@@ -71,14 +71,29 @@ ul {
 }
 
 .default-text {
-  color: #2f3640;
+  color: #30363f;
 }
 
-.image {
-  background-image: url("g2g_homepage-hero.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: left;
+.blue-text {
+  color: #374863;
+}
+
+@media (min-width: 601px) {
+  .image {
+    background-image: url("g2g_homepage-hero.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .image {
+    background-image: url("g2g_homepage-hero-mobile.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
 }
 
 .full-width {
@@ -220,9 +235,22 @@ ul {
                 margin: 0 auto;
             }
 /*logo caption layouting*/
-.figure {
-  width: -webkit-min-content;
-width: -moz-min-content;
-width: min-content;
-text-align: center;
+
+  .figure {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    text-align: center;
+}
+
+@media (min-width: 601px) {
+  .caption-font{
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .caption-font{
+    font-size: 1em;
+  }
 }

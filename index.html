@@ -7,6 +7,10 @@
     <script src="https://use.typekit.net/lyt5dul.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="effects.js"></script>
+  <!--END OF JQUERY-->
       <!-- Bootstrap -->
       <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
@@ -33,31 +37,21 @@
   src="https://www.facebook.com/tr?id=505017159658344&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
-  <!-- JQUERY -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!--END OF JQUERY-->
-  <script>
-  jQuery(document).ready(function($) {
 
-	$(".scroll").click(function(event){
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
-});
-</script>
-    <section class="image">
+    <div class="image">
       <div class="container-fluid">
         <div class="row top-padding">
-          <div class="col-xs-5"></div>
-          <div class="col-xs-2 figure">
+          <div class="col-xs-4"></div>
+          <div class="col-xs-4 figure">
             <img src="gift2grow-white.png" class="full-width">
           </br>
-            <span class="caption white">Succeed. Give back. Be Free.</span>
+            <span class="caption-font white">Succeed. Give back. Be Free.</span>
           </div>
-          <div class="col-xs-5"></div>
+          <div class="col-xs-4"></div>
 </div>
         </div>
       <p class="white">
@@ -71,13 +65,13 @@
           <br/>
           <br/>
           <form action="#subscribe">
-              <input type="submit" value="I am Interested" class="button btn">
+              <input type="submit" value="I am Interested" class="button btn" id="scroll">
           </form>
         </br>
         </br>
         </p>
     </div>
-</section>
+</div>
 
     <div class="light top-padding bottom-padding">
         <h2 class="italic default-text">Professionals We Serve</h2>
@@ -91,7 +85,7 @@
     </div>
 
     <div  class="padding reset-bottom">
-        <h2 class="default-text">How it Works</h2>
+        <h2 class="blue-text bold">How It Works</h2>
         <p class="default-text">
         Gift 2 Grow equips you to send direct mail, email, and social media pieces to your audiences each month. By incorporating gift offers from high-quality local businesses, the conversation changes from generic self-promotion to reciprocity and community. Just add a personal note and mail, email, and post.
         </p>
@@ -117,7 +111,7 @@
 
     <div class="light padding-top">
       <a name="subscribe"></a>
-      <h2 class="default-text">I am interested. Keep me posted.</h2>
+      <h2 class="default-text bold">I am interested. Keep me posted.</h2>
       <!-- Begin MailChimp Signup Form -->
   <div id="mc_embed_signup" style="margin: 0 auto;">
     <form action="//Gift2Grow.us11.list-manage.com/subscribe/post?u=5ae7f9ef56c988b67a546919b&amp;id=9b814120ac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
