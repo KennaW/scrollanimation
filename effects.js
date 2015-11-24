@@ -1,8 +1,11 @@
 jQuery(document).ready(function() {
 
-  $("#scroll").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#elementtoScrollToID").offset().top
-      }, 2000);
-  });
+  // $("#scroll").click(function() {
+  //     $('html, body').animate({
+  //         scrollTop: $("#endscroll").offset()
+  //     }, 2000);
+  // });
+
+
+  
 });

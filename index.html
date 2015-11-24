@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <title>gift2grow</title>
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-    <script src="https://use.typekit.net/lyt5dul.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <LINK href="styles.css" rel="stylesheet" type="text/css">
   <!-- JQUERY -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="effects.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="effects.js"></script> -->
   <!--END OF JQUERY-->
       <!-- Bootstrap -->
       <!-- Latest compiled and minified CSS -->
@@ -38,8 +38,19 @@
   /></noscript>
   <!-- End Facebook Pixel Code -->
 
-</head>
 
+<script>
+$(document).ready(function(){
+
+  $("#scroll").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#endscroll").offset().top
+      }, 2000);
+  });
+
+});
+</script>
+</head>
 <body>
 
     <div class="image">
@@ -64,7 +75,7 @@
           Coming in January
           <br/>
           <br/>
-          <form action="#subscribe">
+          <form action="#endscroll">
               <input type="submit" value="I am Interested" class="button btn" id="scroll">
           </form>
         </br>
@@ -97,7 +108,7 @@
         <div class="col-xs-1"></div>
       </div>
     </div>
-    
+
     <div class="bottom-padding">
         <ul class="default-text">
           <li><img src="postcard.png"/><br/><br/>Postcard</li>
@@ -117,8 +128,8 @@
         </p>
     </div> -->
 
-    <div class="light padding-top">
-      <a name="subscribe"></a>
+    <div class="light padding-top" id="endscroll">
+      <!-- <a name="subscribe"></a> -->
       <h2 class="default-text bold">I am interested. Keep me posted.</h2>
       <!-- Begin MailChimp Signup Form -->
   <div id="mc_embed_signup" style="margin: 0 auto;">
