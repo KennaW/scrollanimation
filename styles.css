@@ -55,10 +55,15 @@ form{
 
 /*}*/
 
-/*.professionals__item {*/
-  /*display: inline-block;*/
-  /*padding: 4% 4%;*/
-/*}*/
+.professionals__item {
+  display: inline-block;
+  padding: 4% 4%;
+}
+
+.social__item {
+  display: inline-block;
+  padding: 4% 4%;
+}
 
 ul {
   text-align: center;
@@ -252,6 +257,10 @@ ul {
 
 .jumbotron__logo {
   text-align: center;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
 }
 
 @media (min-width: 601px) {
