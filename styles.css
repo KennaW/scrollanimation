@@ -49,11 +49,16 @@ form{
 
 /*inline images*/
 
-ul li {
-  display: inline-block;
-  padding: 4% 4%;
+/*ul li {*/
+  /*display: inline-block;*/
+  /*padding: 4% 4%;*/
 
-}
+/*}*/
+
+/*.professionals__item {*/
+  /*display: inline-block;*/
+  /*padding: 4% 4%;*/
+/*}*/
 
 ul {
   text-align: center;
@@ -238,11 +243,15 @@ ul {
             }
 /*logo caption layouting*/
 
-  .figure {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-    text-align: center;
+  /*.figure {*/
+    /*width: -webkit-min-content;*/
+    /*width: -moz-min-content;*/
+    /*width: min-content;*/
+    /*text-align: center;*/
+/*}*/
+
+.jumbotron__logo {
+  text-align: center;
 }
 
 @media (min-width: 601px) {
