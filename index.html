@@ -4,53 +4,53 @@
     <meta charset="utf-8">
     <title>gift2grow</title>
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <LINK href="styles.css" rel="stylesheet" type="text/css">
-  <!-- JQUERY -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="effects.js"></script> -->
-  <!--END OF JQUERY-->
-      <!-- Bootstrap -->
-      <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- JQUERY -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--END OF JQUERY-->
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- End Bootstrap -->
+    <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- End Bootstrap -->
 
-  <!-- Facebook Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','//connect.facebook.net/en_US/fbevents.js');
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
 
-  fbq('init', '505017159658344');
-  fbq('track', "PageView");</script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=505017159658344&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code -->
+    fbq('init', '505017159658344');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=505017159658344&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 
+    <!-- 'interested' button scroll-to-bottom script. The number changes the scrolling speed -->
+    <script>
+      $(document).ready(function(){
 
-<script>
-$(document).ready(function(){
+        $("#scroll").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#endscroll").offset().top
+            }, 2000);
+        });
 
-  $("#scroll").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#endscroll").offset().top
-      }, 2000);
-  });
-
-});
-</script>
+      });
+    </script>
+  <!-- End of the Scrolling script -->
 </head>
+
 <body>
 
     <div class="image">
@@ -58,7 +58,7 @@ $(document).ready(function(){
         <div class="row top-padding">
           <div class="col-xs-4"></div>
           <div class="col-xs-4 figure">
-            <img src="gift2grow-white.png" class="full-width">
+            <img src="images/gift2grow-white.png" class="full-width">
           </br>
             <span class="caption-font white">Succeed. Give back. Be Free.</span>
           </div>
@@ -87,11 +87,11 @@ $(document).ready(function(){
     <div class="light top-padding bottom-padding">
         <h2 class="italic default-text">Professionals We Serve</h2>
         <ul class="default-text">
-          <li><img src="RealEstate.png" alt="" /><br/><br/>Realtors</li>
-          <li><img src="Contracters.png" alt="" /><br/><br/>Contractors</li>
-          <li><img src="HairStylists.png" alt="" /><br/><br/>Hair Stylists</li>
-          <li><img src="FinancialServices.png" alt="" /><br/><br/>Financial Services</li>
-          <li><img src="SalesProfessionals.png" alt="" /><br/><br/>Sales Professionals</li>
+          <li><img src="images/RealEstate.png" alt="" /><br/><br/>Realtors</li>
+          <li><img src="images/Contracters.png" alt="" /><br/><br/>Contractors</li>
+          <li><img src="images/HairStylists.png" alt="" /><br/><br/>Hair Stylists</li>
+          <li><img src="images/FinancialServices.png" alt="" /><br/><br/>Financial Services</li>
+          <li><img src="images/SalesProfessionals.png" alt="" /><br/><br/>Sales Professionals</li>
         </ul>
     </div>
 
@@ -111,18 +111,18 @@ $(document).ready(function(){
 
     <div class="bottom-padding">
         <ul class="default-text">
-          <li><img src="postcard.png"/><br/><br/>Postcard</li>
-          <li><img src="email.png" /><br/><br/>Email</li>
-          <li><img src="social.png" /><br/><br/>Social Media</li>
+          <li><img src="images/postcard.png"/><br/><br/>Postcard</li>
+          <li><img src="images/email.png" /><br/><br/>Email</li>
+          <li><img src="images/social.png" /><br/><br/>Social Media</li>
         </ul>
     </div>
-
+<!-- What People Are Saying section. This is fully styled, but is missing boostrap. -->
     <!-- <div class="medium padding white">
         <h2>WHAT PEOPLE ARE SAYING</h2>
         <p class="italic">
           I love doing what I do, but hate the marketing aspect of it. It's not my area of expertise and therefore, before Gift2Grow, didn't do any marketing. Now I am and my business is growing.  easy and quick. I am so thankful.<br/>
           <ul>
-            <li><img src="ProfilePic.png" alt="" /></li>
+            <li><img src="images/ProfilePic.png" alt="" /></li>
             <li class="bold negative-padding">Kylie Streed<br/>Hair Stylist<br/>Portland, Or</li>
           </ul>
         </p>
@@ -180,7 +180,7 @@ $(document).ready(function(){
         <div class="col-xs-4"></div>
         <div class="col-xs-4 figure">
           <p>
-            <img src="gift2grow-white.png" class="full-width">
+            <img src="images/gift2grow-white.png" class="full-width">
             <span class="caption">Succeed. Help others. Be free.</span>
           </p>
         </div>
@@ -193,6 +193,7 @@ $(document).ready(function(){
     </div>
 
   </div>
+  <!-- Google Analytics -->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -203,6 +204,6 @@ $(document).ready(function(){
   ga('send', 'pageview');
 
   </script>
-
+  <!-- End of Google Analytics -->
   </body>
 </html>

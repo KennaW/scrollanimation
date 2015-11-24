@@ -80,7 +80,7 @@ ul {
 
 @media (min-width: 601px) {
   .image {
-    background-image: url("g2g_homepage-hero.jpg");
+    background-image: url("images/g2g_homepage-hero.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -89,7 +89,7 @@ ul {
 
 @media (max-width: 600px) {
   .image {
-    background-image: url("g2g_homepage-hero-mobile.jpg");
+    background-image: url("images/g2g_homepage-hero-mobile.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: left;
