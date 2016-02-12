@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>gift2grow</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!--END OF JQUERY-->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <!-- End Bootstrap -->
+
+  <script>try {
+    Typekit.load({async: true});
+  }
+  catch (e) {
+  }</script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f, b, e, v, n, t, s) {
+      if (f.fbq) {
+        return;
+      }
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) {
+        f._fbq = n;
+      }
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '505017159658344');
+    fbq('track', "PageView");</script>
+  <noscript><img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=505017159658344&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- 'interested' button scroll-to-bottom script. The number changes the scrolling speed -->
+  <script>
+
+    (function($) {
+      $(document).ready(function() {
+
+        $("#scroll").click(function() {
+
+          var endTop = $("#endscroll").offset().top;
+
+          $("html, body").animate({
+            scrollTop: endTop
+          }, 2000);
+        });
+      });
+    })(jQuery);
+
+  </script>
+  <!-- End of the Scrolling script -->
+</head>
+
+<body>
+
+  <div class="jumbotron image">
+    <div class="container-fluid">
+      <div class="row top-padding">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 jumbotron__logo">
+          <figure class="figure">
+            <img src="images/gift2grow-white.png" class="full-width">
+          </figure>
+          <span class="jumbotron__caption caption-font white">Succeed. Give back. Be Free.</span>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+    <p class="white">
+      </br>
+      </br>
+      At last. Simple marketing for self-employed professionals.
+      <br/>Start gifting and grow your business, your way.
+      <br/>
+    </p>
+    <p class="white italic">
+      Coming in January
+      <br/>
+      <br/>
+      <button id="scroll" class="button btn">I am Interested</button>
+      <!--<form action="#endscroll">-->
+      <!--<input type="submit" value="I am Interested" class="button btn" id="scroll">-->
+      <!--</form>-->
+      </br>
+      </br>
+    </p>
+  </div>
+
+
+<div class="professionals container-fluid light top-padding bottom-padding">
+  <h2 class="professionals__title italic default-text">Professionals We Serve</h2>
+
+  <ul class="professionals__items default-text row">
+    <!--<li class="col-sm-1"></li>-->
+    <li class="professionals__item col-sm-2 col-sm-offset-1">
+      <img src="images/RealEstate.png" alt=""/><br/><br/>Realtors
+    </li>
+    <li class="professionals__item col-sm-2">
+      <img src="images/Contracters.png" alt=""/><br/><br/>Contractors
+    </li>
+    <li class="professionals__item col-sm-2">
+      <img src="images/HairStylists.png" alt=""/><br/><br/>Hair Stylists
+    </li>
+    <li class="professionals__item col-sm-2">
+      <img src="images/FinancialServices.png" alt=""/><br/><br/>Financial Services
+    </li>
+    <li class="professionals__item col-sm-2">
+      <img src="images/SalesProfessionals.png" alt=""/><br/><br/>Sales Professionals
+    </li>
+    <!--<li class="col-sm-1"></li>-->
+  </ul>
+</div>
+
+<div class="how-it-works top-padding">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <h2 class="how-it-works__title blue-text bold">How It Works</h2>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <p class="default-text">
+          Gift 2 Grow equips you to send direct mail, email, and social media pieces to your audiences each month. By incorporating gift offers from high-quality local businesses, the conversation changes from generic self-promotion to reciprocity and community. Just add a personal note and mail, email, and post.
+        </p>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+      <div class="social bottom-padding">
+        <ul class="default-text">
+          <li class="social__item"><img src="images/postcard.png"/><br/><br/>Postcard</li>
+          <li class="social__item"><img src="images/email.png"/><br/><br/>Email</li>
+          <li class="social__item"><img src="images/social.png"/><br/><br/>Social Media</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- What People Are Saying section. This is fully styled, but is missing boostrap. -->
+<!-- <div class="medium padding white">
+    <h2>WHAT PEOPLE ARE SAYING</h2>
+    <p class="italic">
+      I love doing what I do, but hate the marketing aspect of it. It's not my area of expertise and therefore, before Gift2Grow, didn't do any marketing. Now I am and my business is growing.  easy and quick. I am so thankful.<br/>
+      <ul>
+        <li><img src="images/ProfilePic.png" alt="" /></li>
+        <li class="bold negative-padding">Kylie Streed<br/>Hair Stylist<br/>Portland, Or</li>
+      </ul>
+    </p>
+</div> -->
+
+<div class="signup light padding-top" id="endscroll">
+  <!-- <a name="subscribe"></a> -->
+  <h2 class="signup__interested default-text bold">I am interested. Keep me posted.</h2>
+  <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup" class="signup__form" style="margin: 0 auto;">
+    <form action="//Gift2Grow.us11.list-manage.com/subscribe/post?u=5ae7f9ef56c988b67a546919b&amp;id=9b814120ac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+        <div class="inline-block">
+          <div class="mc-field-group">
+            <label for="mce-FNAME" class="visuallyhidden">First and Last Name
+              <span class="asterisk">*</span>
+            </label>
+            <input type="text" value="" placeholder="Name" name="FNAME" class="required inputboxes" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-MMERGE3" class="visuallyhidden">Profession </label>
+            <input type="text" value="" placeholder="Occupation" name="MMERGE3" class="inputboxes" id="mce-MMERGE3">
+          </div>
+        </div>
+        <div class="inline-block">
+          <div class="mc-field-group">
+            <label for="mce-EMAIL" class="visuallyhidden">Email
+              <span class="asterisk">*</span>
+            </label>
+            <input type="email" value="" placeholder="Email" name="EMAIL" class="required email inputboxes" id="mce-EMAIL">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-MMERGE2" class="visuallyhidden">City &amp; State
+              <span class="asterisk">*</span>
+            </label>
+            <input type="text" value="" placeholder="City, State" name="MMERGE2" class="required inputboxes" id="mce-MMERGE2">
+          </div>
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;">
+          <input type="text" name="b_5ae7f9ef56c988b67a546919b_9b814120ac" tabindex="-1" value="">
+        </div>
+
+        <div class="clear">
+          <br/><br/><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+        </div>
+      </div>
+    </form>
+    </br>
+    </br>
+  </div>
+
+  <!--End mc_embed_signup-->
+</div>
+
+<div class="slogan dark padding white container-fluid">
+  <div class="row">
+    <div class="col-xs-4"></div>
+    <div class="col-xs-4 figure">
+      <p>
+        <img src="images/gift2grow-white.png" class="full-width">
+        <span class="slogan__caption">Succeed. Help others. Be free.</span>
+      </p>
+    </div>
+    <div class="col-xs-4"></div>
+  </div>
+
+  <p class="gray top-padding">
+    &#169;2015 Gift 2 Grow. All Rights Reserved.
+  </p>
+</div>
+
+<!-- Google Analytics -->
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-69862230-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End of Google Analytics -->
+</body>
+</html>
